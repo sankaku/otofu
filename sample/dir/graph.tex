@@ -1,0 +1,18 @@
+これはmain.texで参照されているファイルdir/graph.texです。
+
+
+画像サンプル: \includegraphics[width=1cm]{img/not/converted.eps}
+
+これはコマンドではない: \\includegraphics[width=1cm]{img/not/converted.eps}
+
+コマンド部だけ変換される \\includegraphics[width=1cm]{\includegraphics[width=1cm]{img/not/converted.eps}}
+
+
+%画像サンプル: \includegraphics[width=1cm]{img/ここは/変換/されない.eps}
+
+これはコマンドではない: \\includegraphics[width=1cm]{img/ここは/変換/される.eps}
+
+%コマンド部だけ変換される \\includegraphics[width=1cm]{\includegraphics[width=1cm]{img/ここは/変換/されない.eps}}
+
+dir/graph.texここまで。
+
