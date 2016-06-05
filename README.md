@@ -6,8 +6,6 @@
   変換後のTeX文書は[OTFパッケージ](https://www.ctan.org/pkg/japanese-otf)([解説](https://texwiki.texjp.org/?OTF))でdviやpdfにできます。
   これにより、通常はTeXに書いても`pLaTeX`を使ってdviやpdfにすると正常に表示されない`髙`(U+9AD9。はしご高)や`﨑`(U+FA11。たつ崎)なども正常に表示されます。
 
-## デモ
-
 ## 必要なもの
 
 + Ruby

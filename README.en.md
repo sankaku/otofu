@@ -9,9 +9,6 @@
   
   Some characters like `髙`(U+9AD9) or `﨑`(U+FA11), which are invisible in pdf file, will be translated and visible normally by the great help of [OTF package](https://www.ctan.org/pkg/japanese-otf)([explanation by Japanese](https://texwiki.texjp.org/?OTF)).
   
-  
-## DEMO
-
 ## Requirements
 
 + Ruby
@@ -80,7 +77,7 @@
 	 This line is, however,  not inserted when there's no `\begin{document}` line in the TeX file.
 	 The TeX file is regarded as a entirely body file, no preamble.
 
-# Attention
+## Attention
 
 1. cannot deal with the multi-line comment
 
